@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Page setup
-st.set_page_config(page_title="BERT Sentiment Analyzer", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="Sentiment Analyzer", page_icon="🧠", layout="centered")
 
 # Custom Header
 st.markdown("""
