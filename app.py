@@ -17,7 +17,7 @@ def load_model():
 analyzer = load_model()
 
 # User Input
-st.markdown("### ✍️ Enter some text below:")
+st.markdown("### ✍️ Enter your text below:")
 text = st.text_area("Type here...", height=150)
 
 if st.button("🔍 Analyze"):
